@@ -14,9 +14,5 @@ namespace TossSharp {
         /// </value>
         [JsonProperty("code")]
         public TossResultCode Code { get; internal set; }
-
-        public static implicit operator PaymentCancellationResponse(PaymentCancellationRequest v) {
-            throw new NotImplementedException();
-        }
     }
 }
