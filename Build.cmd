@@ -6,7 +6,7 @@ if not exist RedistPackages mkdir RedistPackages
 
 set projectname=TossSharp
 .nuget\NuGet.exe pack %projectname%\%projectname%.csproj -IncludeReferencedProjects -Build -Symbols -OutputDirectory RedistPackages -Verbosity detailed -Properties Configuration=Release
-.nuget\NuGet.exe push RedistPackages\%projectname%.*.nupkg
+.nuget\NuGet.exe push RedistPackages\%projectname%.*.nupkg -Source "https://www.nuget.org/api/v2/package"
 
 pause
 popd
