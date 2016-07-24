@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://github.com/rkttu/TossSharp</licenseUrl>
+    <projectUrl>http://github.com/rkttu/TossSharp</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/tossdev/tossdev.github.io/master/images/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016 (c) ClouDeveloper, All rights reserved.</copyright>
+    <tags>Toss API Payment</tags>
+  </metadata>
+</package>
